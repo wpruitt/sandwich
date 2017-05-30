@@ -12,7 +12,8 @@ var sandwichMaker = (function(orgsandwichMaker){
 		sandwichMaker.getCheese = function(){
 		return cheeses
 	}
-	sandwichMaker.addCheese = function(){
+	sandwichMaker.addCheese = function(cheese){
+		sandwichPrice += cheeses[cheese];
 		
 	}
 	return orgsandwichMaker
